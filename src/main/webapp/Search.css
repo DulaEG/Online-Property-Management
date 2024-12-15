@@ -1,0 +1,285 @@
+@charset "ISO-8859-1";
+
+body {
+	
+	background-color: #15172b;
+	background-attachment: fixed;
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+	height: 150px;
+	background: #303245;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+	border-style: groove #fff;
+	
+
+}
+.logo {
+	width: 0%;
+	float: left;
+	line-height: 175px;
+	margin-right: 150px;
+}
+
+nav {
+	float: right;
+	line-height: 100px;
+
+
+}
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+	display: inline-block;
+
+
+}
+#wax{
+	width:200px;
+  height:200px;
+  object-fit:cover;
+  border-radius:50%;
+  margin-left: 20px;
+
+
+}
+#haircut{
+	width:200px;
+  height:200px;
+  object-fit:cover;
+  border-radius:50%;
+  margin-left: 20px;
+
+}
+#hairdressing{
+	width:200px;
+  height:200px;
+  object-fit:cover;
+  border-radius:50%;
+  margin-left: 20px;
+
+}
+
+#facial{
+width:200px;
+  height:200px;
+  object-fit:cover;
+  border-radius:50%;
+  margin-left: 20px;
+}
+
+#massage{
+width:200px;
+  height:200px;
+  object-fit:cover;
+  border-radius:50%;
+  margin-left: 20px;
+
+}
+
+#tattoo{
+width:200px;
+  height:200px;
+  object-fit:cover;
+  border-radius:50%;
+  margin-left: 20px;
+}
+
+#shaving{
+width:200px;
+  height:200px;
+  object-fit:cover;
+  border-radius:50%;
+  margin-left: 20px;
+}
+.numbers{
+	margin-left: 70px;
+	color: #fff;
+	transition: transform 0.5s;
+	display: inline-block;
+}
+.numbers:hover{
+	transform: translateX(-12px);/*Ref:w3schools*/
+
+}
+.serve:hover{
+	transform: translateY(-12px);/*Ref:w3schools*/
+}
+.serve{
+	
+	transition: transform 0.5s;/*Ref:w3schools*/
+}
+.footer{
+	margin-left: 30px;
+}
+.footer a h2{
+	color: #fff;
+	font-size: 15px;
+	
+}
+.footer a {
+	text-decoration: none;
+}
+.foot-hr{
+	color: #fff;
+	border: 3px solid #fff;
+	margin-top: 20px;
+}
+.payments-store{
+	margin-left: 30px;
+}
+#youtube{
+	margin-left: 820px;
+}
+#master{
+	margin-left: 30px;
+}
+#play{
+	margin-left: 30px;
+}
+#tweet{
+	margin-left: 30px;
+}
+#facebook{
+	margin-left: 30px;
+}
+#insta{
+	margin-left: 30px;
+}
+#user{
+	margin-left: 950px;
+}
+nav a:hover{
+   color: red;
+}
+#user:hover{
+	cursor: pointer;
+	width: 35px;
+}
+.bn{
+  margin-top: 80px;
+  border:groove;
+  width: 150px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #73b0ba;
+}
+.bn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.bn:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+.bn {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 18px 30px;
+  text-align: center;
+  font-size: 20px;
+  margin: 6px 5px;
+  transition: 0.45s;
+  margin-top: 100px;
+}
+
+.setpara{
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/oriflame.png);
+	font-size: 30px;
+	color: #fff;
+	font-family: Sans-serif;
+
+}
+form{
+	color: #fff;
+	font-size: 40px;
+	font-family: sans-serif;
+	margin-left: 300px;
+
+}
+
+.form-cover #Submit{
+	margin-top: 80px;
+  border:groove;
+  width: 150px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #73b0ba;
+}
+.form-cover #Submit {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 18px 30px;
+  text-align: center;
+  font-size: 20px;
+  margin: 6px 5px;
+  transition: 0.45s;
+  margin-top: 100px;
+}
+.form-cover #Submit:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(3,1,1,0.19);
+}
+#Submit:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+#mask{
+	float: left;
+	margin-bottom: 200px;
+}
+
+
+.product{
+ align-items: center;
+ border: 1px solid #eaeaec;
+ margin: 2px 2px 8px 2px;
+ padding: 10px;
+ text-align: center;
+ background-color: #efefef;
+  }
+
+
+table,th,tr{
+text-align: center;
+}
+
+
+.title2{
+text-align: center;
+color: #66afe9;
+background-color: #efefef;
+padding: 2%;
+}
+
+
+
+
+table th{
+background-color: #efefef;
+}
+
+.services img {
+	width: 280px;
+	height: 180px;
+}
+#Submit {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 14px 30px;
+  text-align: center;
+  font-size: 20px;
+  margin: 6px 5px;
+  transition: 0.45s;
+  border-radius: 30px;
+}
